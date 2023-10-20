@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- Requires Vue version 3.x -->
+    <script src="https://unpkg.com/vue@next"></script>
+    <!-- Flow Form -->
+    <script src="https://unpkg.com/@ditdot-dev/vue-flow-form@2.3.2"></script>
+    <!-- Flow Form base CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/@ditdot-dev/vue-flow-form@2.3.2/dist/vue-flow-form.min.css">
+    <!-- Optional theme.css -->
+    <link rel="stylesheet" href="https://unpkg.com/@ditdot-dev/vue-flow-form@2.3.2/dist/vue-flow-form.theme-minimal.min.css">
+    <!-- Optional font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;900&amp;display=swap">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="main-div">
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-title">
+                The Helping Hand
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            
+            <div class="nav-links">
+              <a href="//github.io/jo_geek" target="_blank">Medical Consultation</a>
+              <a href="http://stackoverflow.com/users/4084003/" target="_blank">FAQ</a>
+              <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">Contact Us</a>
+            </div>
+          </div>
+    <div class="div1" >
+        <p id="para1">In the last 30 days, how much difficulty did you have in:</p>
+    </div>
+    <div id="app" class="div2"></div>
+    <div class="button">
+        <a href="/" class="bn">Submit</a>
+    </div>
+    <script src="app.js"></script>
+    </div>
+  </body>
+</html>
