@@ -1,10 +1,8 @@
 .main-div{
-  background-image: url('https://media.istockphoto.com/id/1426197931/photo/a-happy-toddler-boy-sits-in-his-mother-lap-at-the-pediatrician.jpg?s=612x612&w=0&k=20&c=-aFIjISNVc5cHV0rUkhh8iUAi9pY64ChzN8EVVKUD4s=');
+  background-image: url('https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 100%;
+  background-position:right;
   background-attachment: fixed;
 }
 
@@ -13,13 +11,16 @@
     justify-content: center;
     align-items: center;
     height: 120px;
+    border-radius: 15px;
+    margin-left: 30px;
 }
 
 #para1 {
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
-    color: #000438;
+    color:#000438;
+    margin: 1ppx;
 }
 
 .div2 {
@@ -36,12 +37,14 @@
     border-radius: 50px;
     padding-top: 20px;
     padding-bottom: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
 }
 
 .button{
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: white;
     display: flex;
     justify-content: center;
     
@@ -79,6 +82,11 @@ body {
   width: 100%;
   background-color:#DFEBF5;
   position: relative;
+  padding-bottom: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  opacity: 90%;
 }
 
 .nav > .nav-header {
