@@ -106,7 +106,8 @@ body {
 }
 
 .nav > .nav-links {
-  display: inline;
+  display: flex;
+  align-items: center;
   float: right;
   font-size: 18px;
 }
