@@ -26,7 +26,7 @@ The aim of our project is to provide a user-friendly and accessible platform for
 
 **Clone the repository:**
    ```
-   git clone https://github.com/your-username/child-growth-monitoring-app.git
+   git clone https://github.com/RohanMalik2710/The-Helping-Hand_Infinity.git
    ```
 
 ## 🤝 Contributing
