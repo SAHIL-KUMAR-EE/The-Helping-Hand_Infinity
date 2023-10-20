@@ -52,3 +52,12 @@ var app = Vue.createApp({
 });
 
 const vm = app.mount('#app');
+
+function local(){
+    document.write('<h2>local storage</h2>');
+    for (i = 0; i < localStorage.length; i++)   {
+    const key = localStorage.key(i);
+    const value = localStorage.getItem(key);
+    document.write(`<li> <b>${key}</b>: ${value}</li>`);
+}  
+}
